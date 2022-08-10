@@ -89,19 +89,7 @@ void loop() {
   delay(100);
 }
 
-// void startBuzzer()
-// {
-//   int x = 0;
-//   while(x == 0) 
-//   {
-//     digitalWrite(Buzz, HIGH);
-//     delay(5000);
-//     digitalWrite(Buzz, LOW);
-//     delay(1000);
-//     x = 0;
-//     continue;
-//   }
-// }
+
 
 void Ultrasonic(int trig, int echo)
 {
